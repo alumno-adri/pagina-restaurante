@@ -1,0 +1,57 @@
+body, th, td, ul {
+    padding: 0;
+    margin: 0;
+}
+
+.fondo-negro{
+    background-color: rgb(17, 16, 16);
+}
+
+.p-alrededor {
+    padding: 50px;
+}
+
+.tabla-centro, .centro{
+    width: 100%;
+    text-align: center;
+}
+
+.tabla-centro tbody tr, .tabla-centro tbody td, .tabla-centro tbody ul {
+    height: 100%;
+}
+
+.tabla-centro ul, .tabla-centro ol, .centro ul, .centro ol {
+    padding: 0;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+#fondo-menu, #fondo-menu2 {
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+#fondo-menu{
+    background-image: url(https://img.freepik.com/psd-gratis/vista-superior-comida-rapida-maqueta-fondo-negro_23-2148321326.jpg?w=2000);
+    background-size: cover;
+    backdrop-filter: blur(8px);
+}
+
+#fondo-menu2{
+    background-color: #373737;
+    background-image: url(./../img/menu.jpg);
+    background-size:auto 100% ;
+    background-position: center;
+    padding-top: 300px;
+    padding-bottom: 60px;
+}
+
+.texto-grande{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+
+}
